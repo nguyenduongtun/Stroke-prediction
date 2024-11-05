@@ -1,35 +1,38 @@
-###Stroke-prediction
+Stroke Disease Diagnosis Application
+Overview
+This project aims to build a stroke diagnosis application using various machine learning algorithms. The application will analyze stroke data to provide insights and assist in diagnosis.
 
-1. Using Various Machine Learning Algorithms to Build a Model
+Machine Learning Algorithms
+We will implement the following algorithms to build our predictive model:
 
 Logistic Regression
 Random Forest
 Support Vector Machine (SVM)
 XGBoost (XGB)
-
-3. Data Acquisition
-Retrieve stroke data from the Kaggle website.
-
-4. Data Analysis and Evaluation
+Data Acquisition
+The stroke dataset will be retrieved from Kaggle.
+Data Analysis and Evaluation
 Step 1: Exploratory Data Analysis (EDA)
-Use Pandas to read and display the data.
-Utilize Seaborn or Matplotlib to create visualizations and analyze the features.
+Utilize Pandas to read and display the data.
+Use Seaborn or Matplotlib for visualizations to analyze various features.
 Step 2: Data Preprocessing
-Check and handle missing values.
+Check for and handle missing values.
 Normalize and encode the data.
-Split the data into training and testing sets.
-
-5. Model Training and Evaluation
+Split the dataset into training and testing sets.
+Model Training and Evaluation
 Step 1: Model Development
-Use Scikit-learn to build and train the model.
+Use Scikit-learn to build and train the machine learning models.
 Step 2: Model Evaluation
-Evaluate the model using metrics such as accuracy, precision, recall, and F1-score.
+Assess model performance using metrics such as:
+Accuracy
+Precision
+Recall
+F1-score
 Plot the ROC curve and calculate the AUC.
-
-6. Building a Stroke Diagnosis Application
-Web Platform:
-Use Flask to develop the web application.
-Use HTML and CSS for the frontend.
+Building the Stroke Diagnosis Application
+Web Platform
+Develop a web application using Flask.
+Design the frontend using HTML and CSS.
 Required Skills and Tools
 Programming Language: Python
 Machine Learning Libraries: Scikit-learn, Pytorch
